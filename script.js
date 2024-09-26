@@ -144,6 +144,56 @@ console.clear();
 // console.log(maxNumber(number));
 
 
+// const person = {
+//    firstName: "Alice",
+//    lastName: "Johnson",
+//    age: 28
+//  };
+
+// // for(let item in person){
+// //  let result = `${item} : ${person[item]}`
+// //  console.log(result);
+// // }
+
+
+// const {firstName:fName, lastName:lName, age} = person;
+
+// let result = `first-name : ${fName}
+// last-name : ${lName} 
+// Age : ${age}`;
+
+// console.log(result);
+
+
+// function Student (name, age){
+//   this.name = name;
+//   this.age = age;
+
+//   this.display = function (){
+//    return `${this.name} , ${this.age}`
+//   }
+// }
+
+// let student1 = new Student ("rakibul", 28);
+
+// console.log(student1.display());
+
+
+// class Car {
+//    constructor(make, year) {
+//      this.make = make;
+//      this.year = year;
+//    }
+ 
+//    getDetails() {
+//      return `Make: ${this.make}, Year: ${this.year}`;
+//    }
+//  }
+ 
+//  const myCar = new Car("Toyota", 2020);
+//  console.log(myCar.getDetails());
+
+
 
 
 
