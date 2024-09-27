@@ -179,19 +179,250 @@ console.clear();
 // console.log(student1.display());
 
 
+
 // class Car {
-//    constructor(make, year) {
-//      this.make = make;
-//      this.year = year;
+//    constructor(brand, year){
+//       this.name = brand;
+//       this.year = year;
 //    }
- 
-//    getDetails() {
-//      return `Make: ${this.make}, Year: ${this.year}`;
+
+//    display(){
+//       return `Brand : ${this.name} , Year : ${this.year}`;
 //    }
-//  }
- 
-//  const myCar = new Car("Toyota", 2020);
-//  console.log(myCar.getDetails());
+// };
+
+// const car1 = new Car ("toyota", 2020);
+
+// console.log(car1.display());
+
+
+// let arr = [3,6,8,9];
+
+// let [num, ...rest] = arr;
+
+// console.log(num, rest);
+
+
+// const student = {
+//    name : "Rakibul",
+//    age : 28,
+//    cgpa : 3.65
+// }
+// let {name, ...rest} = student;
+
+// console.log(name, rest);
+
+
+// let numbers = [2,3,4,5,6];
+
+// let output = numbers.map(n => n*2);
+
+// console.log(output)
+
+
+// let name = ["rakibul", "orin", "jony"];
+
+// let ul = document.getElementById("ul");
+
+// name.forEach((item)=>{
+//  let li = document.createElement("li");
+//     li.innerText = item;
+
+//     ul.appendChild(li)
+// });
+
+// let number = [5,2,4,6,9,7,12];
+
+// console.log(number.reduce((x, y)=> x+y, 0));
+
+
+// task -1: console log the secondary school location of Sophia 
+
+// let data = {
+//     Sophia: {
+//         id: 33,
+//         study: [
+//             {
+//                 primary:
+//                     [
+//                         { school_name: "ABC primary school" },
+//                         { location: "Peters burg" }
+//                     ]
+//             },
+//             {
+//                 secondary:
+//                     [
+//                         { school_name: "ABC secondary school" },
+//                         { location: "St Lorence" }
+//                     ]
+//             },
+//         ]
+//     }
+// }
+//  console.log(data.Sophia.study[1].secondary[1].location);
+
+
+// task-2: console .log  output: Petersburg, Herry
+// let students = {
+//     2222: {
+//         name: "Jack",
+//         section: "C",
+//         class: "IX",
+//         address: {
+//             "building no": 12,
+//             "street": "St. Jonson",
+//             "city": "Petersburg",
+//             "country": "UK"
+//         }
+//     },
+//     3333: {
+//         name: "Herry",
+//         section: "D",
+//         class: "X",
+//         address: {
+//             "building no": 85,
+//             "street": "DC road",
+//             "city": "Kachukhet",
+//             "country": "Bangladesh"
+//         }
+//     }
+// }
+// console.log(students["2222"]["address"]["city"])
+// console.log(students["3333"].name);
+
+
+// task-3 : access and then show habluder adda
+// show output Beginner
+// let data2 = {
+//     data:
+//         [
+//             {
+//                 bookId: 1,
+//                 bookDetails: {
+//                     name: "habluder adda",
+//                     category: "XYZ",
+//                     price: "20$",
+//                 },
+//                 bookCategory: "Basic",
+//             },
+//             {
+//                 bookId: 2,
+//                 bookDetails: {
+//                     name: "gobluder adda",
+//                     category: "ABC",
+//                     price: "40$",
+//                 },
+//                 bookCategory: "Beginner",
+//             }
+//         ]
+// }
+// console.log(data2.data[0].bookDetails.name);
+
+
+// const numbers = [1,3,5,7,9];
+
+// let arr = []
+// for(let item of numbers){
+//   arr.push(item+1)
+// }
+// console.log(arr)
+
+// console.log(numbers.map(num=> num+1));
+
+// let number = [30,33,50,79,78,90,101,30]
+
+// console.log(number.filter(x=> x%10===0));
+
+
+// let person = [
+//     {name : "nodi", age : 29, position : "senior"},
+//     {name : "akil", age : 25, position : "junior"},
+//     {name : "jony", age : 28, position : "senior"}
+// ]
+
+// console.log(person.filter(x=> x.position==="senior"))
+// console.log(person.filter(x=> x.age>25))
+
+// let person = [
+//     {name : "nodi", age : 29, position : "senior"},
+//     {name : "akil", age : 25, position : "junior"},
+//     {name : "jony", age : 28, position : "senior"}
+// ]
+
+// console.log(person.reduce((a, x)=> a+ x.age, 0))
+// let sum = 0;
+// for(let item of person){
+//    sum +=item.age
+// }
+
+// console.log(sum);
+
+// class Student {
+//     constructor(name, age){
+//      this.name  = name;
+//      this.age = age;
+//     }
+//     display(){
+//       console.log(this.name);
+//       console.log(this.age);
+//       console.log(this.subject) 
+//     }
+//     display2(){
+//         console.log(`Your Name : ${this.name} your Age: ${this.age} subject : ${this.subject}`)
+//     }
+// }
+// class Art extends Student{
+//     constructor(name, age, subject){
+//         super(name, age)
+//         this.subject = subject;
+//     }
+// }
+
+// let student1 = new Student ("hayder", 28);
+// let artStudent = new Art ("orin", 25, "history")
+// // console.log(student1.display2());
+// console.log(artStudent.display2())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
