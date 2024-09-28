@@ -384,41 +384,319 @@ console.clear();
 // console.log(artStudent.display2())
 
 
+// let student = {
+//     name : "rakib",
+//     age : 28,
+//     address : {
+//      home : "Pabna",
+//      work : {
+//         remote : "delhi",
+//         office : "dhaka"
+//      } 
+//     }
+// };
+
+// console.log(student?.address?.work?.remote)
+
+
+// let arr = [1, 2, 3, 4];
+
+// console.table(arr.map(x=> x*x))
+
+// const number = [1, 2, 3, 4];
+
+// number.forEach(x => console.log(`Value : ${x}`))
+
+
+// function display(){
+//     let count = 0;
+
+//     return function(){
+//         count ++;
+//         return count;
+//     }
+// };
+// let data = display();
+// let data1 = display();
+// //  console.log(data());
+// //  console.log(data());
+// //  console.log(data());
+
+//  for(let x=0; x<10; x++){
+//     console.log(data1())
+//  }
+
+
+// function display(data){
+//    console.log(data())
+// }
+
+
+// function data(){
+//  let sum = 2+5;
+//  return sum;
+// };
+
+// display(data);
+
+
+// function getData (calculate, item, item2){
+//   console.log(calculate(item, item2))
+// }
+
+// function sum(num1, num2){
+//   let sum = num1 + num2;
+
+//   return sum
+// }
+// function mult (num1, num2){
+// let mul = num1 * num2;
+// return mul;
+// } 
+
+//  getData(sum, 5,7);
+//  getData(mult, 2,3)
+
+// function display(data,item){
+//   console.log("hello");
+//   data (item);
+// };
+
+// function data(item){
+//     console.log("welcome", item);
+
+
+// }
+
+// display(data, "world");
+
+
+// function display(func1, item){
+//    return doubble(item)
+// }
+
+// function doubble (item){
+//   return item*2;
+// }
+
+// let result = display(doubble, 5);
+
+// console.log(result)
+
+// function display (sum, num1, num2){
+//   return sum(num1, num2)
+// }
+
+// function sum (a, b){
+//   return a+b;
+// }
+ 
+// let result = display(sum , 5, 6);
+
+// console.log(result);
+
+
+// function cheackAge(age, data){
+//   return age(data);
+// }
+
+// function age (num){
+//     if(num>=18){
+//         return "Person Adult"
+//     }
+//     else{
+//         return "person Not Adult"
+//     }
+
+// }
+
+// let result = cheackAge(age, 65);
+
+// console.log(result);
+
+
+// function data (){
+//     let count =  1;
+    
+//  document.getElementById("btn").addEventListener("click", function(){
+//      count ++
+//      document.getElementById("p").innerText = count;
+//      console.log(count);
+//  });
+ 
+// //  return count; 
+// };
+
+// let count1 = data();
+
+
+// // console.log(count1);
 
 
 
 
+// function display(a, b, c ,d){
+//    let arr = [...arguments];
+//     let sum = 0
+//    arr.forEach(x => sum += x)
+   
+//   console.log(sum)
+// }
+ 
+// display(2,4,6,7,8,3,5);
+
+
+// let number = [2,5,6,78,12,5]
+
+// let [a, b, c, d, ...rest ] = number;
+
+// // console.log(a,b,c,d , rest)
+
+// let arr = [5, a, ...rest];
+
+// console.log(arr);
 
 
 
+// let student = {
+//     name : "rakibul",
+//     age : 28,
+//     cgpa : 3.65
+// }
+
+// let {name, age:boyos, ...rest} = student;
+
+// console.log(name, boyos, rest);
 
 
 
+// class Car {
+//     constructor(name, year){
+//      this.name = name;
+//      this.year = year;
+//     }
+//     display(){
+//         return `Brand: ${this.name} Production: ${this.year} ${this.model ? `Model: ${this.model}` : ''}`;
+//     }
+// };
+
+// class SportCar extends Car {
+//     constructor(name, year, model){
+//         super(name, year)
+//         this.model = model;
+//     }
+// }
+
+// let car1 = new Car ("toyota", 2012);
+// let sportCar1 = new SportCar("ferari", 2022, "FDW-36")
+
+// console.log(car1.display());
+
+// console.log(sportCar1.display());
 
 
 
+// let arr = [1, 2, 3, 4];
+
+// console.log(arr.map(x=> Math.pow(x, 2)));
+
+
+// let arr = [1, 3, 4, 6, 7, 8];
+
+// const newArr = arr.filter(x=> x%2===0);
+
+// // let newArr = [];
+// // arr.map(x=> {
+// //    if(x%2===0){
+// //     newArr.push(x)
+// //    } 
+// // });
+
+// console.log(newArr);
+
+
+// const number = [2, 3, 4];
+
+// let sum  = number.reduce((a,b)=> a*b, 1);
+
+// console.log(sum);
+
+
+// const number = [1, 2, 3, 4];
+// let add = 0
+//  number.forEach(x=> add +=x);
+
+// console.log(add);
+
+
+// let name  = [{name: 'Alice'}, {name: 'Bob'}, {name: 'Charlie'}];
+
+// let newArr = (name.map(x=> x.name));
+
+// console.log(newArr);
+
+// const name = ['apple', 'dog', 'banana', 'cat'];
+
+// const data = (arr)=>{
+//   let output = arr.filter(x=> x.length>4);
+
+//   return output
+// };
+
+// let result = data(name);
+
+// console.log(result)
 
 
 
+// let person = [
+//     {name: 'Tom', age: 15}, 
+//     {name: 'Jerry', age: 22}, 
+//     {name: 'Spike', age: 19}
+// ];
+
+// let sum = person.reduce((a, b)=> {
+//     if(b.age>18){
+//         return a + b.age;
+//     }
+//     else{
+//         return a;
+//     }
+// },0);
+
+// console.log(sum);
 
 
+// let arr = [{name: 'Alice'}, {name: 'Bob'}];
+//  let result = [];
+//  arr.forEach(x=> {
+//     console.log(x)
+//     x.age = 30;
+//     console.log(x)
+//     result.push(x)
+// })
+// console.log(result);
 
+// const arr = [{name: 'Alice'}, {name: 'Bob'}];
+// let newArr = []
+// let a = arr.map(x=> {x.age=30; newArr.push(x)} );
 
+// console.log(newArr);
 
+// Task 10: Reduce - Flatten an array of arrays
+// Description:
+// You have an array of arrays. Use reduce() to flatten it into a single array.
 
+// Input: [[1, 2], [3, 4], [5, 6]]
+// Output: [1, 2, 3, 4, 5, 6];
 
+// let arr =[[1, 2], [3, 4], [5, 6]];
 
+// // console.log(arr.reduce((a,b)=> a.concat(b)));
+// let newArr = [];
+// arr.map(x=> newArr.push(...x));
 
-
-
-
-
-
-
-
-
-
-
+// console.log(newArr);
 
 
 
